@@ -1,0 +1,108 @@
+.Titulo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Centraliza o conteúdo dentro do container */
+  align-items: flex-start; /* Alinha itens ao topo */
+  padding: 20px;
+  
+}
+.imagemconheça {
+  min-width: 400px; /* Garante que a imagem tenha um tamanho mínimo */
+  max-width: 87%; /* Limita a largura máxima da imagem */
+  display: flex;
+  align-items: left;
+  transform: translate(-200px, 30px); /* Move a imagem para a esquerda e para baixo */
+}
+
+.imagem {
+  flex: 1;
+  min-width: 400px; /* Garante que a imagem tenha um tamanho mínimo */
+  max-width: 50%; /* Limita a largura máxima da imagem */
+  box-sizing: border-box;
+  padding: 10px; /* Espaçamento interno para estética */
+}
+
+.imagem img {
+  width: 100%;
+  height: auto; /* Garante que a imagem se ajuste proporcionalmente */
+}
+
+.texto {
+  width: 417.6px; /* Define a largura específica do bloco de texto */
+  height: 600px; /* Define a altura específica do bloco de texto */
+  background-color: #e6dede; /* Cor de fundo */
+  padding: 20px;
+  box-sizing: border-box; /* Inclui padding na largura total */
+  margin-left: 20px; /* Espaçamento entre a imagem e o bloco de texto */
+  border-radius: 8px; /* Bordas arredondadas para um visual mais agradável */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; /* Alinha o conteúdo interno ao topo */
+  align-items: flex-start; /* Alinha o conteúdo à esquerda */
+  transform: translate(100px, 100px);
+  transform: translate(-100px, 50px);
+}
+
+h1 {
+  color: #333;
+  margin-bottom: 10px; /* Espaço entre o título e o conteúdo */
+  font-weight: bold; /* Define o título principal como bold */
+  text-align: left; /* Centraliza o título para a esquerda */
+  width: 100%; /* Ocupa toda a largura disponível */
+  margin-top: 10px;
+
+}
+
+h2 {
+  color: #666;
+  margin-top: 20px; /* Espaço entre subtítulos */
+  margin-bottom: 10px;
+  font-weight: bold; /* Define os subtítulos como bold */
+}
+
+p {
+  color: #999;
+  margin: 5px 0; /* Espaço entre parágrafos */
+  text-align: left; /* Alinha o texto à esquerda */
+}
+
+.button-container {
+  display: flex;
+  flex-direction: column; /* Alinha os botões em coluna */
+  align-items: center; /* Centraliza os botões horizontalmente */
+  margin-top: 20px;
+  gap: 10px; /* Espaço entre os botões */
+  width: 100%; /* Garante que a largura ocupe todo o espaço */
+}
+
+.button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 20px; /* Arredonda as bordas dos botões */
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Centraliza o conteúdo do botão */
+}
+
+.button-transparent {
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+}
+
+.button-white {
+  background-color: white;
+  border: none;
+  color: #333;
+}
+
+.button-white img {
+  width: 20px; /* Define o tamanho do ícone do carrinho */
+  margin-right: 8px; /* Espaço entre o ícone e o texto */
+}
+
+
+
+
+

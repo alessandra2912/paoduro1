@@ -1,0 +1,32 @@
+.Mae {
+    width: 900px;
+    height: 450PX;
+    margin: auto ;
+    padding: 20px;
+    background-color: #e6dede;
+    border: 5px solid #a7a6a6;
+    border-radius: 50px;
+    box-shadow: 0 2px 4px rgba(17, 0, 250, 0.1);
+    position: relative;
+    top: 100px;
+  }
+  .label1{
+    position: relative;
+    top: 1000px;
+  }
+
+  button.botao {
+    width: 100px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #463939;
+    color: white;
+    cursor: pointer;
+    left: -100px;
+  }
+  
+  button.botao:hover {
+    background-color: #857474;
+  }
+  
